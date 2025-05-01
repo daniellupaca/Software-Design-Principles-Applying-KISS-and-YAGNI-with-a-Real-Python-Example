@@ -3,7 +3,6 @@ from order_repository import OrderRepository
 
 
 class OrderService:
-    
     def __init__(self, repository: OrderRepository):
         self.repository = repository
 
